@@ -1,0 +1,6 @@
+src/**/*-test.js
+dist
+node_modules
+/bin/template
+/example
+
