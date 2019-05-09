@@ -1,10 +1,10 @@
 {
-  "name": "ssy-template",
+  "name": "ssy-create-page",
   "version": "1.0.0",
   "description": "just for create pages",
-  "author": "shangyueyue",
+  "author": "shangyy",
   "license": "MIT",
-  "repository": "shangyueyue/ssy-template",
+  "repository": "shangyueyue/ssy-create-page",
   "bin": "bin/index.js",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
