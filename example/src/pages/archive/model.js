@@ -2,7 +2,7 @@ import { Toast } from 'antd-mobile';
 import Service from './service';
 
 export default {
-  namespace: 'home',
+  namespace: 'archive',
   state: {},
   reducers: {
     save(state, { payload }) {

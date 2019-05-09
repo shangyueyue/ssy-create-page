@@ -53,7 +53,7 @@ function main() {
   templateFiles.forEach(file => {
     const templateFile = path.join(templateDirname, file);
     const outputFile = path.join(process.env.OUTPUT_PATH, file.replace(/\.ejs/, '.js'));
-    console.log(templateFile, outputFile);
+    // console.log(templateFile, outputFile);
     createTemplate(templateFile, outputFile);
   });
 }

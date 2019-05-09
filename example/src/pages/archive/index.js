@@ -7,16 +7,16 @@ import { WingBlank, List } from 'antd-mobile';
   loading,
 }))
 @createForm()
-class HomePage extends React.Component {
+class ArchivePage extends React.Component {
   render() {
     return (
       <WingBlank size="sm">
         <List>
-          <List.Item>hello HomePage</List.Item>
+          <List.Item>hello ArchivePage</List.Item>
         </List>
       </WingBlank>
     );
   }
 }
 
-export default HomePage;
+export default ArchivePage;
