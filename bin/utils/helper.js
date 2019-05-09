@@ -36,6 +36,8 @@ async function createTemplate(templateFile, outputFile) {
     fs.writeFile(outputFile, datas, err => {
       if (err) {
         console.log(colors.red(err));
+      } else {
+        console.log(colors.green(`${path.basename(outputFile)} create success!`));
       }
     });
   } catch (error) {
